@@ -8,6 +8,12 @@
     <artifactId>scala-java</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+
+    <dependencies>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -38,6 +44,7 @@
                     <execution>
                         <id>scala-compile-first</id>
                         <phase>process-resources</phase>
+                        <!--做两件事情：1.添加到到源文件中;2.编译-->
                         <goals>
                             <goal>add-source</goal>
                             <goal>compile</goal>
