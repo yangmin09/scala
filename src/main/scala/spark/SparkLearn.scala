@@ -18,6 +18,10 @@ object SparkLearn {
     val conf = new SparkConf().setMaster("local").setAppName("spark_learn")
     val sc = new SparkContext();
 
+    val input=sc.parallelize()
+
+
+
   }
 
 
